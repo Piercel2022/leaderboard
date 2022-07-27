@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>leaderboard</title>
+<script defer src="bundle.js"></script></head>
+<body>
+    <h1>Leaderboard</h1>
+    <main>
+    <div>
+        <div class="left-container">
+        <div class="heading">
+        <h2>Recents scores</h2>
+            <button type="button" id="refreshBtn">Refresh</button>
+        </div>
+        <div class="name-container">
+            <div class="spieler"> Name: 100</div>
+            <div class="spieler">Name: 20</div>
+            <div class="spieler">Name: 50</div>
+            <div class="spieler">Name: 78</div>
+            <div class="spieler">Name: 125</div>
+            <div class="spieler">Name: 77</div>
+            <div class="spieler">Name: 42</div>
+            
+        </div>
+    </div>
+    </div>
+    <div>
+        <h2>Add your score</h2>
+        <form id="form">
+            <input type="text" placeholder="Your Name" id="nameField" required>
+            <input type="text" placeholder="Your Score" id="scoreField" required>
+            <br> <br>
+            <div class="submit-btn-container">
+                <button type="button" id="submitBtn">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    </main>
+    
+</body>
+</html>
