@@ -1,46 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>leaderboard</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaderboard</title>
 </head>
 <body>
-    <h1>Leaderboard</h1>
-    <main>
-    <div>
-        <div class="left-container">
-        <div class="heading">
-        <h2>Recents scores</h2>
-            <button type="button" id="refreshBtn">Refresh</button>
+  <h1 class="title">Leaderboard</h1>
+  <div class="main">
+    <div class="container">
+      <div class="scores-section">
+        <div class="top">
+          <h2 class="scores-title">Recent scores</h2>
+          <button type="button" class="refresh-btn btn" id="refreshBtn">Refresh</button>
         </div>
-        <div class="name-container">
-            <div class="spieler"> Name: 100</div>
-            <div class="spieler">Name: 20</div>
-            <div class="spieler">Name: 50</div>
-            <div class="spieler">Name: 78</div>
-            <div class="spieler">Name: 125</div>
-            <div class="spieler">Name: 77</div>
-            <div class="spieler">Name: 42</div>
-            
-        </div>
-    </div>
-    </div>
-    <div>
-        <h2>Add your score</h2>
-        <form id="form">
-            <input type="text" placeholder="Your Name" id="nameField" required>
-            <input type="text" placeholder="Your Score" id="scoreField" required>
-            <br> <br>
-            <div class="submit-btn-container">
-                <button type="button" id="submitBtn">Submit</button>
-            </div>
+        <div id="scores-box" class="scores-box"></div>
+      </div>
+      <div class="add-scores">
+        <h2 class="scores-title">Add your score</h2>
+        <form action="add-score" class="add-form" id="form">
+          <input class="inputs" type="text" name="name" id="name-input" placeholder="Your name" />
+          <input class="inputs" type="text" name="score" id="score-input" placeholder="Your score" />
+          <button type="submit" class="add-btn btn" id="submit" >Submit</button>
         </form>
+      </div>
     </div>
-
-    </main>
-    
+  </div>
+  <footer>
+    <h3 class="footer-content">Copyright 2022</h3>
+  </footer>
 </body>
 </html>
