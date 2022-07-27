@@ -1,5 +1,5 @@
 ## Description of the project
-In this activity I set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules
+In this activity I create a game by using the Leaderboard API documentation
 
 ## Built With
 
