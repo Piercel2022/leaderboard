@@ -1,10 +1,10 @@
 ## Description of the project
-In this activity I create a game by using the Leaderboard API documentation
+In this activity I finalize the project by adding more styling. The puepose is to understand how to use a medium-fidelity wireframes to create a UI.
 
 ## Built With
 
-- Major languages: HTML & CSS
-- A Linter for HTML & CSS and Javascript
+- Major languages: HTML, CSS and Javascript
+- Linters for HTML & CSS and Javascript5(Webhint, Lighthouse, Stylelint, Eslint)
 - npm and webpack
 
 
