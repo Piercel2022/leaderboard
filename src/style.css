@@ -12,22 +12,21 @@ html {
 
 .title {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: 5rem;
   padding: 1.5rem;
-  background: #ddd;
+  background: #000;
   color: white;
   letter-spacing: 2px;
 }
 
 .main {
-  padding-left: 4rem;
+  padding-left: 2rem;
   display: flex;
   align-items: center;
-  justify-content: center;
-
-  /* background-image: url(./background.jpeg); */
-  height: 80rem;
+  justify-content: flex-start;
+  height: 60rem;
+  background-image: url(../image/banniere.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -56,12 +55,12 @@ html {
 }
 
 .btn {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-top: 1rem;
   margin-left: auto;
   padding: 0.5rem 1rem;
   border-radius: 10px;
-  background: transparent;
+  box-shadow: 2px 2px 2px 1px rgba(10, 10, 10, 0.94);
   cursor: pointer;
 }
 
@@ -71,44 +70,18 @@ html {
 }
 
 .scores-box {
-  font-size: 2.5rem;
+  font-size: 3rem;
   display: flex;
   flex-direction: column;
   margin-top: 15px;
-  list-style: none;
   height: 40rem;
-  overflow: hidden;
+  border: 2px solid black;
   overflow-y: scroll;
-  background: #ddd;
-  color: white;
+  background-color: white;
 }
 
 .scores-box::-webkit-scrollbar {
   width: 0.5em;
-}
-
-.add-form {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  padding-top: 5rem;
-}
-
-.inputs {
-  padding: 0.7rem;
-  font-size: 2rem;
-  background: #ddd;
-  color: white;
-  border: none;
-}
-
-::placeholder {
-  color: white;
-}
-
-.add-btn {
-  margin-left: auto;
-  cursor: pointer;
 }
 
 li {
@@ -116,10 +89,47 @@ li {
   font-weight: 500;
 }
 
+li:nth-child(even) {
+  background: #ddd;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 3rem;
+}
+
+.inputs {
+  padding: 0.7rem;
+  font-size: 2rem;
+  background: #ddd;
+  color: #000;
+  border: none;
+}
+
+::placeholder {
+  color: #000;
+  font-weight: 500;
+}
+
+#name-input {
+  border: 2px solid black;
+}
+
+#score-input {
+  border: 2px solid black;
+}
+
+.add-btn {
+  margin-left: auto;
+  cursor: pointer;
+}
+
 footer {
   display: flex;
-  justify-content: center;
-  background: #ddd;
+  justify-content: flex-start;
+  background: #000;
   color: white;
   font-size: 2rem;
   padding: 13px;
