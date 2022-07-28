@@ -35,7 +35,7 @@ const getScore = async (url) => {
 const displayScores = ((scores) => {
   const scoreArray = scores.result;
   const scoreDetail = scoreArray.map((b) => `
-    <div>${b.user} : ${b.score}</div>
+    <li>${b.user} : ${b.score}</li>
   `).join('');
   document.getElementById('scores-box').innerHTML = `${scoreDetail}`;
 });
