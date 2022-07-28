@@ -15,7 +15,7 @@ html {
   justify-content: flex-start;
   font-size: 5rem;
   padding: 1.5rem;
-  background: #000000;
+  background: #000;
   color: white;
   letter-spacing: 2px;
 }
@@ -84,7 +84,12 @@ html {
   width: 0.5em;
 }
 
-li:nth-child(even){
+li {
+  padding: 5px 15px;
+  font-weight: 500;
+}
+
+li:nth-child(even) {
   background: #ddd;
 }
 
@@ -99,35 +104,32 @@ li:nth-child(even){
   padding: 0.7rem;
   font-size: 2rem;
   background: #ddd;
-  color: #000000;
+  color: #000;
   border: none;
 }
 
 ::placeholder {
-  color: #000000;
+  color: #000;
   font-weight: 500;
 }
 
-#name-input{
+#name-input {
   border: 2px solid black;
 }
-#score-input{
+
+#score-input {
   border: 2px solid black;
 }
+
 .add-btn {
   margin-left: auto;
   cursor: pointer;
 }
 
-li {
-  padding: 5px 15px;
-  font-weight: 500;
-}
-
 footer {
   display: flex;
   justify-content: flex-start;
-  background: #000000;
+  background: #000;
   color: white;
   font-size: 2rem;
   padding: 13px;
