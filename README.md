@@ -29,7 +29,7 @@ cd leaderboard
 
 
 ## Link demo
-[live demo](https://piercel2022.github.io/leaderboard)
+[live demo](https://piercel2022.github.io/leaderboard/dist)
 
 ### Install, build and run: 
 To install linters and other project's dependencies run: npm install
