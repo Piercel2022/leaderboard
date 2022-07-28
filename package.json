@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/Piercel2022/leaderboard/issues"
   },
-  "homepage": " https://piercel2022.github.io/leaderboard/",
+  "homepage": " https://piercel2022.github.io/leaderboard",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
