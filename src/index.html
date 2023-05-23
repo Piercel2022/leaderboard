@@ -7,15 +7,15 @@
   <title>Leaderboard</title>
 </head>
 <body>
-  <h1 class="title">Leaderboard</h1>
-  <div class="main">
-    <div class="container">
-      <div class="scores-section">
-        <div class="top">
-          <h2 class="scores-title">Recent scores</h2>
-          <button type="button" class="refresh-btn btn" id="refreshBtn">Refresh</button>
+  <h1 class="flex flex-row justify-center text-base bg-sky-500 ">Leaderboard</h1>
+  <div class="flex flex-col justify-center place-items-center h-3/5 bg-no-repeat bg-cover" style="background-image: url(../image/banniere.jpg)">
+    <div class="flex gap-20 mx-16 ">
+      <div class="flex flex-row">
+        <div class="flex gap-16 ">
+          <h2 class="text-7xl font-semibold">Recent scores</h2>
+          <button type="button" class="text-5xl mt-6 ml-auto px-2 pl-4 shadow-2xl" id="refreshBtn">Refresh</button>
         </div>
-        <ul id="scores-box" class="scores-box"></ul>
+        <ul id="scores-box" class="flex flex-col text-5xl mt-4 h-[40rem] border-b-zinc-300 bg-white"></ul>
       </div>
       <div class="add-scores">
         <h2 class="scores-title">Add your score</h2>

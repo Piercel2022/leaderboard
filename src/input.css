@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.scores {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  width: 50rem;
+}
+
+
+.btn:hover {
+  background: #ddd;
+  color: white;
+}
+
+.scores-box::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+li {
+  padding: 5px 15px;
+  font-weight: 500;
+}
+
+li:nth-child(even) {
+  background: #ddd;
+}
+
